@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using PhotoOps.Models;
+using MvcPhotoOps.Models;
 
-namespace PhotoOps.Controllers
+namespace MvcPhotoOps.Controllers
 {
     public class AccountController : Controller
     {

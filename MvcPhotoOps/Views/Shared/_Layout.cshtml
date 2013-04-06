@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/bootstrap/css/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/bootstrap/css/bootstrap-responsive.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container-narrow container-fluid">
+        <div class="masthead">
+           <div class="muted" style="text-align:center"><img src="@Url.Content("~/Content/bootstrap/img/miniLogo.png")" alt="photo-ops"/></div>
+        </div>
+        <hr />
+        <div class="subnav subnav-fixed">
+            <form style="text-align:center" action>
+                <input class="span3" type="text" placeholder="Enter the name of your event" />
+                <input class="span3" type="text" placeholder="Enter your bib number" />
+                <button type="button" class="btn">Find</button>
+            </form>
+        </div>
+        <hr />
+        <section>
+            @RenderBody()
+        </section>
+        <footer>
+        </footer>
+    </div
+    <script src="@Url.Content("~/Scripts/jquery-1.9.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/modernizr-latest.js")" type="text/javascript"></script>
+</body>
+</html>

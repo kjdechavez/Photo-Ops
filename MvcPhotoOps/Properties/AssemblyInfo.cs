@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PhotoOps")]
+[assembly: AssemblyTitle("MvcPhotoOps")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PhotoOps")]
+[assembly: AssemblyProduct("MvcPhotoOps")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5bab5f0c-ea26-46d6-ad32-47f6e17ec21e")]
+[assembly: Guid("cffb67bb-a9d9-4282-8061-a00000753014")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
 
-namespace PhotoOps.Models
+namespace MvcPhotoOps.Models
 {
 
     public class ChangePasswordModel
