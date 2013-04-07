@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MvcPhotoOps.Models;
-using MvcPhotoOps.Models.ViewModel;
+using MvcPhotoOps.Models.ViewModels;
 
 namespace MvcPhotoOps.Controllers
 {
@@ -19,8 +19,11 @@ namespace MvcPhotoOps.Controllers
             List<Event> events = new List<Event> { new Event { EventId=1, Date=DateTime.Now, Name="Event name 1" },
                                                    new Event { EventId=2, Date=DateTime.Now, Name="Event name 2" }};
 
-            // Assign to ViewModel
-            EventIndexViewModel viewModel = new EventIndexViewModel(events);
+            // Define the context
+            Entities context = new Entities { Events = events };
+
+            // Assign the entites to ViewModel
+            EventIndexViewModel viewModel = new EventIndexViewModel(context.Events);
             
 
             return View(viewModel);
